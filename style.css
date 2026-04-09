@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
 }
 
@@ -107,6 +107,7 @@ button {
 .quote-text {
     font-size: 36px;
     font-weight: 300;
+    font-style: italic;
 }
 
 .attribution {
