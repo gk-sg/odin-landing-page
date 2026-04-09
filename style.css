@@ -1,26 +1,20 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 a {
     text-decoration: none;
 }
 
-.center {
-    display: flex;
-    padding: 0 15%;
-    justify-content: center;
-    /*background-color: #1f2937;*/
-}
-
 .header {
     display: flex;
-    flex: 1;
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     height: 100px;
+    padding: 0 15%;
     color: #e5e7eb;
 }
 
@@ -38,6 +32,39 @@ a {
 }
 
 .logo {
-    font-size: 48px;
+    font-size: 24px;
+}
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 50px 15% 100px 15%;
+} 
+
+.center img {
+    width: 600px;
+    height: auto;
+}
+
+.hero {
+    padding-right: 50px;
+    color: #e5e7eb;
+}
+
+.hero h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.hero button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 10px 36px;
+    border: none;
+    border-radius: 8px;
 }
